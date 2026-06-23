@@ -225,20 +225,18 @@ The Streamlit application allows users to:
 ```text
 trash-to-tech-ai-waste-classification/
 │
+├── LICENSE
+├── README.md
 ├── app.py
-├── waste_classifier.keras
+├── requirements.txt
 ├── Waste_Classification_System.ipynb
 ├── waste_classification_system.py
-├── requirements.txt
+├── Project_report.pdf
 │
-├── screenshots/
-│   ├── home_page.png
-│   ├── prediction_example.png
-│
-├── report/
-│   └── Mini_Project_Report.pdf
-│
-└── README.md
+└── Examples/
+    ├── Biodegradable.png
+    ├── Hazardous.png
+    └── Hazardous2.png
 ```
 
 ---
@@ -262,6 +260,11 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+---
+## Trained Model
+
+The trained model file (.keras) is not included in this repository due to file size limitations. The model can be reproduced by running the training notebook provided in this repository.
 
 ---
 
